@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.bridgelabz.qa.api.a.Rest_Api_Automation_Testing_Test">
+        <methods>
+          <include name="getToken"/>
+          <include name="Add_Items_to_Playlist"/>
+          <include name="get_user_profile"/>
+          <include name="get_Current_User_Profile"/>
+          <include name="create_playlist"/>
+          <include name="Get_User_Playlists"/>
+          <include name="get_Playlist"/>
+          <include name="remove_Playlist_Items"/>
+        </methods>
+      </class> <!-- com.bridgelabz.qa.api.a.Rest_Api_Automation_Testing_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
